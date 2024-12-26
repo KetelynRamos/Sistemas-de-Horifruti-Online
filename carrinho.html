@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/carrinho.css">
+
+    <script src="script/principal.js" defer></script>
+    <script src="script/carrinho.js" defer></script>
+    <title>Carrinho de Compras</title>
+</head>
+
+<body>
+    <header>
+        <div class="divlogo">
+            <a href="principal.html">
+                <img src="src/logo.png" width="200px" height="200px" alt="Logo" />
+            </a>
+        </div>
+
+        <div class="barraPesquisa">
+            <input id="barraPesquisaInput" placeholder="Pesquise . . ." required>
+            <button type="submit" id="botaoPesquisa">
+              <img src="src/lupa.png" alt="Buscar" width="20px" height="20px">
+            </button>
+          </div>
+        
+        <div class="div-carrinho-usuario"> 
+        <div class="div-usuario">
+           <img src="src/user.png" alt="usuario">
+        </div> 
+        <div class="div-carrinho">
+        <div class="carrinho">
+            <a href="carrinho.html">
+                <span id="contador-carrinho">0</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    </header>
+
+
+
+    <div>
+        <button id="voltar-compras" style="display: none;" onclick="voltarCompras()">Voltar às Compras</button>
+    </div>
+
+
+    <div class="carrinho-container">
+        <h1>Carrinho de Compras</h1>
+        <div id="lista-carrinho"></div>
+        <p class="total-preco">Total: R$ <span id="total-preco">0.00</span></p>
+        <button class="finalizar-compra" id="finalizar-compra">Finalizar Compra</button>
+        <!-- Botão para voltar às compras -->
+    </div>
+
+
+    <script src="script/carrinho.js">
+    </script>
+
+    <footer>
+        <div id="teste">
+            <h2>Obrigado por visitar</h2>
+            <br>
+            <h1>HORTIFRUT ONLINE</h1>
+            <br>
+            <br>
+            <h3>Visite nossas redes</h3>
+        </div>
+    </footer>
+</body>
+
+</html>

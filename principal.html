@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/carrinho.css">
+    <script src="script/principal.js"></script>
+    <script src="script/carrinho.js"></script>
+
+    <title>Carrossel de Produtos</title>
+</head>
+
+<body>
+    <header>
+        <div class="divlogo">
+            <a href="principal.html">
+                <img src="src/logo.png" width="200px" height="200px" alt="Logo" />
+            </a>
+        </div>
+
+        <div class="barraPesquisa">
+            <input id="barraPesquisaInput" placeholder="Pesquise . . ." required>
+            <button type="submit" id="botaoPesquisa">
+              <img src="src/lupa.png" alt="Buscar" width="20px" height="20px">
+            </button>
+          </div>
+        
+        <div class="div-carrinho-usuario"> 
+        <div class="div-usuario">
+            <img src="src/user.png" alt="usuario" id="icone-usuario">
+            <div id="menu-usuario" style="display: none;">
+                <!-- O conteúdo será adicionado via JavaScript -->
+            </div>
+         </div>
+         
+
+
+
+        <div class="div-carrinho">
+        <div class="carrinho">
+            <a href="carrinho.html">
+                <span id="contador-carrinho">0</span>
+            </a>
+        </div>
+    </div>
+    </div>
+    </header>
+
+    <div class="lateralEMain">
+        <div class="sidebar">
+        </div>
+        <div class="content">
+            <div class="flex-container carousel" id="carousel-container">
+                <!-- Os produtos serão carregados dinamicamente aqui -->
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div id="teste">
+            <h2>Obrigado por visitar</h2>
+            <h1>HORTIFRUT ONLINE</h1>
+            <h3>Visite nossas redes</h3>
+        </div>
+    </footer>
+
+</body>
+
+</html>
