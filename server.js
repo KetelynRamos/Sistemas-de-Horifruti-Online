@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // Para ler o corpo das requ
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',       // Seu usuário do MySQL
-    password: '4242', // Sua senha do MySQL
+    password: '4242', 
     database: 'hortifrut' // Nome do banco de dados
 });
 
